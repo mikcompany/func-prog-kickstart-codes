@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='01PureFunctions'/>
+        <page name='02TrickDeck'/>
+        <page name='03ASimpleLabel'/>
+        <page name='04ASimpleButton'/>
+        <page name='05MutatingState'/>
+        <page name='06DisplayingCards'/>
+        <page name='07MutableMiddle'/>
+        <page name='08OneForFun'/>
+    </pages>
+</playground>
