@@ -1,6 +1,6 @@
-public class ImmutableCard {
-    public var rank: Rank
-    public var suit: Suit
+public struct ImmutableCard {
+    public let rank: Rank
+    public let suit: Suit
     
     public init(_ rank: Rank,
          of suit: Suit) {
