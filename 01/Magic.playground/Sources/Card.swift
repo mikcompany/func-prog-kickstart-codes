@@ -13,3 +13,9 @@ extension Card: CustomStringConvertible {
         "\(rank) \(suit)"
     }
 }
+
+extension Card: CustomPlaygroundDisplayConvertible {
+    public var playgroundDescription: Any {
+        self.description
+    }
+}

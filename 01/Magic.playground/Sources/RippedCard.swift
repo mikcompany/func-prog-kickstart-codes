@@ -1,4 +1,4 @@
-public struct RippedCard {
+public struct RippedCard: CardCarrying {
     public let card: Card
 }
 
@@ -8,3 +8,6 @@ extension RippedCard: CustomStringConvertible {
     }
 }
 
+public func ripped(_ card: Card) -> RippedCard {
+    RippedCard(card: card)
+}
